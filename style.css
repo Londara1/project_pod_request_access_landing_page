@@ -137,16 +137,22 @@ input::placeholder {
     visibility: hidden;
 }
 
+#emailChecker {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 200px;
+    height: 14px;
+    order: 1;
+}
+
 .correct {
     color: #32CD32;
-    /* margin: 8px 0px 0px 0px; */
     font-size: 12px;
     line-height: 14px;
 }
 
 .incorrect {
     color: #FB3E3E;
-    /* margin-top: 8px; */
     font-size: 12px;
     line-height: 14px;
 }
@@ -247,14 +253,6 @@ input::placeholder {
     input {
         outline: none;
         height: 56px;
-    }
-
-    #emailChecker {
-        padding-top: 7px;
-        padding-bottom: 7px;
-        width: 200px;
-        height: 14px;
-        order: 1;
     }
     
     .spotifyLogo {
